@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Listado De Personas</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="mostrarPersonas()">
+
+    <div class="titulo">
+        <h1>Listado De Personas</h1>
+    </div>
+
+    <div class="personas">
+        <ul id="personas">
+            <!--<li>Nombre Apellido</li>-->
+        </ul>
+    </div>
+
+    <div class="agregar">
+        <button onclick="agregarPersona()"> + </button>
+        <form id="forma">
+            <div class="input">
+                <input type="text" id="nombre" />
+                <input type="text" id="apellido" />
+            </div>
+            <div class="text">
+                <div class="text_div">
+                    <label for="nombre">Nombre</label>
+                </div>
+                <div class="text_div">
+                    <label for="apellido">Apellido</label>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="Js/personas.js"></script>
+    <script src="Js/app.js"></script>
+
+</body>
+
+</html>
